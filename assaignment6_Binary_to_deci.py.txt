@@ -1,0 +1,17 @@
+def b(n): 
+     
+    s = 0 
+      
+    base = 1 
+      
+    
+    while(n): 
+        l = n % 10
+        n = int(n / 10) 
+          
+        s += l * base 
+        base = base * 2 
+    return s
+  
+n = int(input("number"))
+print(b(n)) 

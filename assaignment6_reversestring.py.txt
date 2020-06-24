@@ -1,0 +1,12 @@
+n=input("enter the string : ")
+
+c=n[len(n)::-1]
+
+print('reversed form is : ',c)
+    
+
+
+
+
+
+
